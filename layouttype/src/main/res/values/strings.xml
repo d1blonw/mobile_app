@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Layout Type</string>
+    <string name="button19">Button 1</string>
+    <string name="button18">Button 2</string>
+    <string name="button14">Button 3</string>
+    <string name="button10">Button 4</string>
+    <string name="button9">Button 5</string>
+    <string name="button8">Button 6</string>
+    <string name="editTextText">New life for mirea activity!</string>
+</resources>
