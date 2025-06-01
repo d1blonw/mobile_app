@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         playButton = binding.button2;
         playButton.setEnabled(false);
 
-        fileName = new File(getExternalFilesDir(Environment.DIRECTORY_MUSIC), "audiorecordtest.3gp").getAbsolutePath();
+        fileName = new File(getExternalFilesDir(Environment.DIRECTORY_MUSIC), "audiorecordtestKOVALEV.3gp").getAbsolutePath();
 
         recordButton.setOnClickListener(new View.OnClickListener() {
             @Override
