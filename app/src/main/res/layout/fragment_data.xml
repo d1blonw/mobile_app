@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?android:attr/colorBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Ковер — это тканое полотно, чаще всего предназначенное для покрытия пола или стен, изготовленное из шерсти, хлопка, шелка или синтетических материалов."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:textColor="?android:attr/textColorPrimary"
+            android:paddingBottom="8dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="365dp"
+            android:contentDescription="Ковры"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_carpet" />
+
+        <TextView
+            android:text="Среди древних традиций выделялся особый вид ковра, сотканный мастерами Кавказа — шошан, отличающийся уникальной техникой плетения узлов вручную. Такие изделия передавались из поколения в поколение и считались семейными реликвиями, поскольку каждое изделие хранило тайны узоров, символизирующих счастье, здоровье и благополучие семьи."
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:attr/textColorSecondary"
+            android:paddingTop="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
